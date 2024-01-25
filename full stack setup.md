@@ -18,6 +18,8 @@
 
 ## Attendance API Table
 
+snippets coming soon...
+
 ##  Forntend setup
 
 ![image](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API/assets/156056444/9b4923c6-dae1-4bc3-95f4-b37fbb4284d4)
