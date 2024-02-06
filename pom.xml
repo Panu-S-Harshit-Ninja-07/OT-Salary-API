@@ -93,6 +93,19 @@
 				<!-- ... other configurations ... -->
 			</plugin>
 			<plugin>
+			  	<groupId>com.github.spotbugs</groupId>
+			  	<artifactId>spotbugs-maven-plugin</artifactId>
+			  	<version>4.8.2.0</version>
+			  	<dependencies>
+			    		<!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
+			    		<dependency>
+			      		<groupId>com.github.spotbugs</groupId>
+			      		<artifactId>spotbugs</artifactId>
+			      		<version>4.8.3</version>
+			    	</dependency>
+			  </dependencies>
+			</plugin>
+			<plugin>
 				<groupId>org.owasp</groupId>
 				<artifactId>dependency-check-maven</artifactId>
 				<version>8.4.2</version>
